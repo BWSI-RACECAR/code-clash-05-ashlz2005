@@ -35,6 +35,7 @@ class Solution:
 
         while "hi" in hi_string:
             hi_string = hi_string[hi_string.index("hi") + 2:]
+            count += 1
         
         return count
 
